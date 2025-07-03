@@ -9,7 +9,7 @@ export function Hero() {
       {/* Background gradient */}
       <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-secondary/5" />
 
-      <div className="container relative">
+      <div className="max-w-7xl mx-auto px-4 relative">
         <div className="mx-auto max-w-4xl text-center">
           <Badge variant="secondary" className="mb-6">
             <Zap className="mr-2 h-3 w-3" />
